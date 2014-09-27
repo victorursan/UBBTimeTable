@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6244" systemVersion="13F34" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="SettingsDB" representedClassName="SettingsDB" syncable="YES">
+        <attribute name="an" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="grupa" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="specializarea" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="studiu" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SubjectsDB" representedClassName="SubjectsDB" syncable="YES">
+        <attribute name="cadruDidactic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="disciplina" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="formatia" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="frecventa" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="grupa" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orele" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sala" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tipul" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ziua" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="SettingsDB" positionX="-63" positionY="-18" width="128" height="118"/>
+        <element name="SubjectsDB" positionX="-54" positionY="-9" width="128" height="178"/>
+    </elements>
 </model>

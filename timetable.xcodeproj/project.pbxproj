@@ -9,11 +9,33 @@
 /* Begin PBXBuildFile section */
 		5780C83C19D6C080008B2A74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780C83B19D6C080008B2A74 /* AppDelegate.swift */; };
 		5780C83F19D6C080008B2A74 /* timetable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5780C83D19D6C080008B2A74 /* timetable.xcdatamodeld */; };
-		5780C84119D6C080008B2A74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780C84019D6C080008B2A74 /* ViewController.swift */; };
-		5780C84419D6C080008B2A74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5780C84219D6C080008B2A74 /* Main.storyboard */; };
 		5780C84619D6C080008B2A74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5780C84519D6C080008B2A74 /* Images.xcassets */; };
-		5780C84919D6C080008B2A74 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5780C84719D6C080008B2A74 /* LaunchScreen.xib */; };
 		5780C85519D6C081008B2A74 /* timetableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780C85419D6C081008B2A74 /* timetableTests.swift */; };
+		5780C86419D6C3E0008B2A74 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780C85F19D6C3E0008B2A74 /* MainTableViewController.swift */; };
+		5780C86519D6C3E0008B2A74 /* RightTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780C86019D6C3E0008B2A74 /* RightTableViewController.swift */; };
+		5780C86619D6C3E0008B2A74 /* LeftTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780C86119D6C3E0008B2A74 /* LeftTableViewController.swift */; };
+		5780C86719D6C3E0008B2A74 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780C86219D6C3E0008B2A74 /* SettingsViewController.swift */; };
+		5780C86819D6C3E0008B2A74 /* MissingDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780C86319D6C3E0008B2A74 /* MissingDataView.swift */; };
+		5780C86E19D6C413008B2A74 /* SettingsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780C86919D6C413008B2A74 /* SettingsHandler.swift */; };
+		5780C86F19D6C413008B2A74 /* DataHTMLParserHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780C86A19D6C413008B2A74 /* DataHTMLParserHandler.swift */; };
+		5780C87019D6C413008B2A74 /* SettingsHTMLParserHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780C86B19D6C413008B2A74 /* SettingsHTMLParserHandler.swift */; };
+		5780C87119D6C413008B2A74 /* DataDBHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780C86C19D6C413008B2A74 /* DataDBHandler.swift */; };
+		5780C87219D6C413008B2A74 /* SettingsDBHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780C86D19D6C413008B2A74 /* SettingsDBHandler.swift */; };
+		5780C87A19D6C41C008B2A74 /* URLMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780C87319D6C41C008B2A74 /* URLMaker.swift */; };
+		5780C87D19D6C41C008B2A74 /* Anul.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780C87619D6C41C008B2A74 /* Anul.swift */; };
+		5780C87E19D6C41C008B2A74 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780C87719D6C41C008B2A74 /* Subject.swift */; };
+		5780C87F19D6C41C008B2A74 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780C87819D6C41C008B2A74 /* Date.swift */; };
+		5780C88019D6C41C008B2A74 /* CustomSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780C87919D6C41C008B2A74 /* CustomSort.swift */; };
+		5780C89119D6C481008B2A74 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5780C88319D6C481008B2A74 /* MBProgressHUD.m */; };
+		5780C89219D6C481008B2A74 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5780C88619D6C481008B2A74 /* MMDrawerBarButtonItem.m */; };
+		5780C89319D6C481008B2A74 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5780C88919D6C481008B2A74 /* MMDrawerController.m */; };
+		5780C89419D6C481008B2A74 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5780C88B19D6C481008B2A74 /* MMDrawerVisualState.m */; };
+		5780C89519D6C481008B2A74 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5780C88D19D6C481008B2A74 /* UIViewController+MMDrawerController.m */; };
+		5780C89619D6C481008B2A74 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5780C89019D6C481008B2A74 /* Reachability.m */; };
+		5780C89A19D6C493008B2A74 /* HTMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780C89819D6C493008B2A74 /* HTMLNode.swift */; };
+		5780C89B19D6C493008B2A74 /* HTMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780C89919D6C493008B2A74 /* HTMLParser.swift */; };
+		5780C8A119D6C7DD008B2A74 /* SettingsDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780C8A019D6C7DD008B2A74 /* SettingsDB.swift */; };
+		5780C8A319D6C7DD008B2A74 /* SubjectsDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780C8A219D6C7DD008B2A74 /* SubjectsDB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +53,43 @@
 		5780C83A19D6C080008B2A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5780C83B19D6C080008B2A74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5780C83E19D6C080008B2A74 /* timetable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = timetable.xcdatamodel; sourceTree = "<group>"; };
-		5780C84019D6C080008B2A74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5780C84319D6C080008B2A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5780C84519D6C080008B2A74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5780C84819D6C080008B2A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5780C84E19D6C080008B2A74 /* timetableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timetableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5780C85319D6C081008B2A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5780C85419D6C081008B2A74 /* timetableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timetableTests.swift; sourceTree = "<group>"; };
+		5780C85E19D6C3BB008B2A74 /* Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		5780C85F19D6C3E0008B2A74 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		5780C86019D6C3E0008B2A74 /* RightTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightTableViewController.swift; sourceTree = "<group>"; };
+		5780C86119D6C3E0008B2A74 /* LeftTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftTableViewController.swift; sourceTree = "<group>"; };
+		5780C86219D6C3E0008B2A74 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5780C86319D6C3E0008B2A74 /* MissingDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissingDataView.swift; sourceTree = "<group>"; };
+		5780C86919D6C413008B2A74 /* SettingsHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsHandler.swift; sourceTree = "<group>"; };
+		5780C86A19D6C413008B2A74 /* DataHTMLParserHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataHTMLParserHandler.swift; sourceTree = "<group>"; };
+		5780C86B19D6C413008B2A74 /* SettingsHTMLParserHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsHTMLParserHandler.swift; sourceTree = "<group>"; };
+		5780C86C19D6C413008B2A74 /* DataDBHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataDBHandler.swift; sourceTree = "<group>"; };
+		5780C86D19D6C413008B2A74 /* SettingsDBHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsDBHandler.swift; sourceTree = "<group>"; };
+		5780C87319D6C41C008B2A74 /* URLMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLMaker.swift; sourceTree = "<group>"; };
+		5780C87619D6C41C008B2A74 /* Anul.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Anul.swift; sourceTree = "<group>"; };
+		5780C87719D6C41C008B2A74 /* Subject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		5780C87819D6C41C008B2A74 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		5780C87919D6C41C008B2A74 /* CustomSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSort.swift; sourceTree = "<group>"; };
+		5780C88219D6C481008B2A74 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		5780C88319D6C481008B2A74 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		5780C88519D6C481008B2A74 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		5780C88619D6C481008B2A74 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		5780C88719D6C481008B2A74 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		5780C88819D6C481008B2A74 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		5780C88919D6C481008B2A74 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		5780C88A19D6C481008B2A74 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		5780C88B19D6C481008B2A74 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		5780C88C19D6C481008B2A74 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		5780C88D19D6C481008B2A74 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		5780C88F19D6C481008B2A74 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		5780C89019D6C481008B2A74 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		5780C89819D6C493008B2A74 /* HTMLNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTMLNode.swift; sourceTree = "<group>"; };
+		5780C89919D6C493008B2A74 /* HTMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTMLParser.swift; sourceTree = "<group>"; };
+		5780C8A019D6C7DD008B2A74 /* SettingsDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsDB.swift; path = ../SettingsDB.swift; sourceTree = "<group>"; };
+		5780C8A219D6C7DD008B2A74 /* SubjectsDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubjectsDB.swift; path = ../SubjectsDB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +114,10 @@
 			isa = PBXGroup;
 			children = (
 				5780C83819D6C080008B2A74 /* timetable */,
+				5780C89719D6C493008B2A74 /* SwiftHTMLParser */,
+				5780C88119D6C481008B2A74 /* MBProgressHUD */,
+				5780C88419D6C481008B2A74 /* MMDrawerController */,
+				5780C88E19D6C481008B2A74 /* Reachability */,
 				5780C85119D6C081008B2A74 /* timetableTests */,
 				5780C83719D6C080008B2A74 /* Products */,
 			);
@@ -80,11 +136,9 @@
 			isa = PBXGroup;
 			children = (
 				5780C83B19D6C080008B2A74 /* AppDelegate.swift */,
-				5780C84019D6C080008B2A74 /* ViewController.swift */,
-				5780C84219D6C080008B2A74 /* Main.storyboard */,
-				5780C84519D6C080008B2A74 /* Images.xcassets */,
-				5780C84719D6C080008B2A74 /* LaunchScreen.xib */,
-				5780C83D19D6C080008B2A74 /* timetable.xcdatamodeld */,
+				5780C8A419D6C945008B2A74 /* ViewControllers */,
+				5780C8A519D6C95B008B2A74 /* Handlers */,
+				5780C8A619D6C968008B2A74 /* Models */,
 				5780C83919D6C080008B2A74 /* Supporting Files */,
 			);
 			path = timetable;
@@ -93,6 +147,9 @@
 		5780C83919D6C080008B2A74 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5780C85E19D6C3BB008B2A74 /* Bridge.h */,
+				5780C84519D6C080008B2A74 /* Images.xcassets */,
+				5780C83D19D6C080008B2A74 /* timetable.xcdatamodeld */,
 				5780C83A19D6C080008B2A74 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -113,6 +170,87 @@
 				5780C85319D6C081008B2A74 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5780C88119D6C481008B2A74 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				5780C88219D6C481008B2A74 /* MBProgressHUD.h */,
+				5780C88319D6C481008B2A74 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		5780C88419D6C481008B2A74 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				5780C88519D6C481008B2A74 /* MMDrawerBarButtonItem.h */,
+				5780C88619D6C481008B2A74 /* MMDrawerBarButtonItem.m */,
+				5780C88719D6C481008B2A74 /* MMDrawerController+Subclass.h */,
+				5780C88819D6C481008B2A74 /* MMDrawerController.h */,
+				5780C88919D6C481008B2A74 /* MMDrawerController.m */,
+				5780C88A19D6C481008B2A74 /* MMDrawerVisualState.h */,
+				5780C88B19D6C481008B2A74 /* MMDrawerVisualState.m */,
+				5780C88C19D6C481008B2A74 /* UIViewController+MMDrawerController.h */,
+				5780C88D19D6C481008B2A74 /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		5780C88E19D6C481008B2A74 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				5780C88F19D6C481008B2A74 /* Reachability.h */,
+				5780C89019D6C481008B2A74 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		5780C89719D6C493008B2A74 /* SwiftHTMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				5780C89819D6C493008B2A74 /* HTMLNode.swift */,
+				5780C89919D6C493008B2A74 /* HTMLParser.swift */,
+			);
+			path = SwiftHTMLParser;
+			sourceTree = "<group>";
+		};
+		5780C8A419D6C945008B2A74 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5780C85F19D6C3E0008B2A74 /* MainTableViewController.swift */,
+				5780C86019D6C3E0008B2A74 /* RightTableViewController.swift */,
+				5780C86119D6C3E0008B2A74 /* LeftTableViewController.swift */,
+				5780C86219D6C3E0008B2A74 /* SettingsViewController.swift */,
+				5780C86319D6C3E0008B2A74 /* MissingDataView.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5780C8A519D6C95B008B2A74 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				5780C86919D6C413008B2A74 /* SettingsHandler.swift */,
+				5780C86A19D6C413008B2A74 /* DataHTMLParserHandler.swift */,
+				5780C86B19D6C413008B2A74 /* SettingsHTMLParserHandler.swift */,
+				5780C86C19D6C413008B2A74 /* DataDBHandler.swift */,
+				5780C86D19D6C413008B2A74 /* SettingsDBHandler.swift */,
+			);
+			name = Handlers;
+			sourceTree = "<group>";
+		};
+		5780C8A619D6C968008B2A74 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5780C87319D6C41C008B2A74 /* URLMaker.swift */,
+				5780C87619D6C41C008B2A74 /* Anul.swift */,
+				5780C87719D6C41C008B2A74 /* Subject.swift */,
+				5780C87819D6C41C008B2A74 /* Date.swift */,
+				5780C87919D6C41C008B2A74 /* CustomSort.swift */,
+				5780C8A219D6C7DD008B2A74 /* SubjectsDB.swift */,
+				5780C8A019D6C7DD008B2A74 /* SettingsDB.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +302,7 @@
 				TargetAttributes = {
 					5780C83519D6C080008B2A74 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 94TWQJ7GSF;
 					};
 					5780C84D19D6C080008B2A74 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -195,8 +334,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5780C84419D6C080008B2A74 /* Main.storyboard in Resources */,
-				5780C84919D6C080008B2A74 /* LaunchScreen.xib in Resources */,
 				5780C84619D6C080008B2A74 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,9 +352,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5780C84119D6C080008B2A74 /* ViewController.swift in Sources */,
+				5780C8A319D6C7DD008B2A74 /* SubjectsDB.swift in Sources */,
+				5780C89619D6C481008B2A74 /* Reachability.m in Sources */,
+				5780C87219D6C413008B2A74 /* SettingsDBHandler.swift in Sources */,
+				5780C86419D6C3E0008B2A74 /* MainTableViewController.swift in Sources */,
+				5780C88019D6C41C008B2A74 /* CustomSort.swift in Sources */,
+				5780C89219D6C481008B2A74 /* MMDrawerBarButtonItem.m in Sources */,
+				5780C89319D6C481008B2A74 /* MMDrawerController.m in Sources */,
+				5780C86F19D6C413008B2A74 /* DataHTMLParserHandler.swift in Sources */,
+				5780C86719D6C3E0008B2A74 /* SettingsViewController.swift in Sources */,
+				5780C87119D6C413008B2A74 /* DataDBHandler.swift in Sources */,
+				5780C89A19D6C493008B2A74 /* HTMLNode.swift in Sources */,
+				5780C86E19D6C413008B2A74 /* SettingsHandler.swift in Sources */,
+				5780C87019D6C413008B2A74 /* SettingsHTMLParserHandler.swift in Sources */,
+				5780C89419D6C481008B2A74 /* MMDrawerVisualState.m in Sources */,
+				5780C89519D6C481008B2A74 /* UIViewController+MMDrawerController.m in Sources */,
 				5780C83C19D6C080008B2A74 /* AppDelegate.swift in Sources */,
+				5780C86519D6C3E0008B2A74 /* RightTableViewController.swift in Sources */,
+				5780C86619D6C3E0008B2A74 /* LeftTableViewController.swift in Sources */,
+				5780C89119D6C481008B2A74 /* MBProgressHUD.m in Sources */,
 				5780C83F19D6C080008B2A74 /* timetable.xcdatamodeld in Sources */,
+				5780C87A19D6C41C008B2A74 /* URLMaker.swift in Sources */,
+				5780C87D19D6C41C008B2A74 /* Anul.swift in Sources */,
+				5780C87F19D6C41C008B2A74 /* Date.swift in Sources */,
+				5780C89B19D6C493008B2A74 /* HTMLParser.swift in Sources */,
+				5780C8A119D6C7DD008B2A74 /* SettingsDB.swift in Sources */,
+				5780C87E19D6C41C008B2A74 /* Subject.swift in Sources */,
+				5780C86819D6C3E0008B2A74 /* MissingDataView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,25 +399,6 @@
 			targetProxy = 5780C84F19D6C081008B2A74 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5780C84219D6C080008B2A74 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5780C84319D6C080008B2A74 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5780C84719D6C080008B2A74 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5780C84819D6C080008B2A74 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5780C85619D6C081008B2A74 /* Debug */ = {
@@ -340,9 +482,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = timetable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = timetable/Bridge.h;
 			};
 			name = Debug;
 		};
@@ -350,9 +502,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = timetable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = timetable/Bridge.h;
 			};
 			name = Release;
 		};
